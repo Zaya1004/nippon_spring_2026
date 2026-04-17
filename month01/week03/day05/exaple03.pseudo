@@ -1,0 +1,17 @@
+BEGIN 
+  INPUT weather
+  IF weather = "raining" THEN
+   OUTPUT "Take a raincoat!"
+  ELSE
+   OUTPUT "Don't take a raincoat!"
+  ENDIF
+END
+
+BEGIN 
+   INPUT hour
+   IF hour >= 9 AND hour <= 21 THEN 
+      OUTPUT "Open"
+   ELSE
+      OUTPUT "Close"
+   ENDIF
+END
