@@ -1,0 +1,15 @@
+BEGIN 
+result=0
+read -p "Enter: 1st number" num1
+read -p "Enter: 2nd number" num2
+read -p "choose (+, -, *, /):" op 
+ IF op = +
+    echo "num1 + num2"
+  ELSEIF op = -
+    echo "num1 - num2"
+  ELSEIF op = * 
+    echo "num1 * num2"
+  ELSEIF op = /
+    echo "num1 / num2"
+ ENDIF  
+END                                        
