@@ -1,0 +1,42 @@
+/* tag selector */
+
+section {
+    height: 40px;
+    width: 400px;
+    background-color: pink;
+    text-align: center;
+}
+
+#one {
+    color: aliceblue;
+}
+
+#two {
+    color: antiquewhite;
+}
+
+#three {
+    color: violet;
+}
+
+#one {
+    color: red;
+}
+
+#li {
+    font-size: 30px;
+    color: black;
+}
+
+.japanese {
+    color: red;
+}
+
+.italian {
+    color: rgb(49, 91, 91);
+}
+
+.german {
+    color: black;
+} 
+
