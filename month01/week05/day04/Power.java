@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Power {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Suuri too: ");
+        int base = sc.nextInt();
+        System.out.println("Zereg: ");
+        int exp = sc.nextInt();
+        int result = 1;
+        for (int ){
+            
+        }
+    }
+}
