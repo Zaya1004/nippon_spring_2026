@@ -1,0 +1,14 @@
+img{
+    height: 400px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.force-below {
+    clear: left;
+    font-size: 1.8em;
+    color: gray;
+}
