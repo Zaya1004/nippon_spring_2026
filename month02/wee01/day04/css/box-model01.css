@@ -1,0 +1,51 @@
+/* tag selector */
+h1 {
+    font-size: 40px;
+    color: blueviolet;
+}
+
+h2 {
+    font-size: small;
+    color: rgb(121, 105, 86);
+}
+
+/* tag id, class, selectors*/
+
+/* id > tag */
+
+/* id > class */
+
+#box {
+    color: brown;
+}
+
+#section-01 {
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    border-color: tomato;
+    border-style: dotted;
+    border-width: 3px;
+}
+
+#section-02 {
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    color: blue;
+    /* border top */ 
+    border-top-color: rgb(121, 105, 86);
+    border-top-width: 15px ;
+    border-top-style: groove;
+    border-bottom-color: rgb(69, 69, 32);
+    border-bottom-width: 20px ;
+    border-bottom-style: double;
+}
+
+#section-03 {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: azure;
+    border: 10px solid orange;
+}

@@ -1,0 +1,101 @@
+main {
+    width: 1440px;
+    height: 100vh;
+    background-color: #EFF3BF;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container {
+    width: 510px;
+    height: 755px;
+    background-color: white;
+    margin: auto;
+
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    border-radius: 64px;
+}
+
+.container img#profile {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+}
+
+.container img#background {
+    position: absolute;
+    top: -1px;
+    left: 0%
+}
+
+.container img#profile1{
+    position: absolute;
+    top: 114px;
+    left: 0%;
+}
+
+.container img#profile2{
+    position: absolute;
+    top: 117px;
+    left: 0%;
+}
+
+.container img#profile3{
+    position: absolute;
+    top: 117px;
+    left: 0%;
+}
+.container img#profile4{
+    position: absolute;
+    top: 119px;
+    left: 0%;
+}
+
+.container img#mask {
+    position: absolute;
+    top: 91px;
+    left: 0%;
+}
+.icon1 {
+    position: relative;
+    left: 18%;
+    margin-top: 45px;
+}
+
+.icon1 img {
+    margin-left: 5%;
+}
+
+.name {
+    margin-top: 320px;
+    font-size: 44px;
+    text-align: center;
+    font-style: normal;
+}
+
+.mail {
+    font-style: initial;
+    text-align: center;
+    margin-top: -35px;
+    color: gray;
+}
+
+.text {
+    width: 385px;
+    margin-top: 36px;
+    text-align: center;
+    margin-left: 13%;
+    font-size: 21px;
+}
+
+.foll {
+    position: relative;
+    left: 4%;
+    margin-top: 70px;
+    
+}
+.foll img {
+    margin-left: 7%;
+}
