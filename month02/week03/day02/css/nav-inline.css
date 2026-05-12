@@ -1,0 +1,29 @@
+nav {
+    background: #1a1a2e;
+}
+
+nav ul {
+    list-style: disc;
+    padding: 0 24px;
+}
+
+nav ul li {
+    display: contents;
+}
+
+nav ul li a {
+    display: block;
+    padding: 17px 18px;
+    color: #aaa;
+    text-decoration: double;
+}
+
+nav ul li a:hover {
+    background: #0066cc;
+    color: white;
+}
+
+nav ul li a.active {
+    color: white;
+    border-bottom: 3px solid #4fc3f7;
+}
