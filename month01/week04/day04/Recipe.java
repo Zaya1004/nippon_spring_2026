@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Recipe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("=== Store ===");
+        
         System.out.println("First item: ");
         String First = scanner.nextLine();
         System.out.println("Price: ");
@@ -34,12 +34,40 @@ public class Recipe {
         int dun3 = Price3 * Quantity3;
         int niit = dun1 + dun2 + dun3;
         int Vat = niit / 10;
+        int niitVat = niit + Vat;
+        
+
         
         
         
+        System.out.println("=== Store ===");
+        System.out.println("First item: " + First );
+        System.out.println("Price: " + Price);
+        System.out.println("Quantity: " + Quantity);
+
+
+
+        System.out.println("Second item: " + Second);
+        System.out.println("Price2: " + Price2);
+        System.out.println("Quantity2: " + Quantity2);
         
-        System.out.println("=========================");
-        System.out.println("");
+        
+        System.out.println("Third item: " + Third);
+        System.out.println("Price3: " + Price3);
+        System.out.println("Quantity3: " + Quantity3);
+
+
+        System.out.println("============================");
+
+        System.out.println("First * = "+ Quantity+ dun1 );
+        System.out.println("Second * = " + Quantity2 + dun2 );
+        System.out.println("Third *  = " + Quantity3 + dun3 );
+        System.out.println("---------------------------");
+        System.out.println("Niit dun   =  " + niit );
+        System.out.println("VAT    =     " + Vat);
+        System.out.println("Niit (Vat)  =  " + niitVat);
+        System.out.println("============================");
+        scanner.close();
 
 
 

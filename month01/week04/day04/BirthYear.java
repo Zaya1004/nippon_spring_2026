@@ -8,8 +8,8 @@ public class BirthYear {
         System.out.println("Enter your age: ");
         int age = scanner.nextInt();
         int birthyear = 2025 - age;
-        System.out.println(name  +  age  + "years old. " + "Born in " + birthyear );
+        System.out.println(name + age + "years old. " + "Born in " + birthyear);
         scanner.close();
     }
-    
+
 }

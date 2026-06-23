@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    font-size: 100px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 74px;
+    overflow: hidden;
+}
+
+nav:hover{
+    background-color: aqua;
+}
+
+.btn{ 
+    text-decoration: none;
+}

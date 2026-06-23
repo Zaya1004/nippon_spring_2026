@@ -11,7 +11,7 @@ public class TimeConverter {
         int minut = scanner.nextInt();
         System.out.println("sec:");
         int sec = scanner.nextInt();
-        int niit = ((time * 60) + (minut * 60) + sec);
+        int niit = ((time / 60) + (minut / 60) + sec);
         System.out.println("niit: " + niit);
         scanner.close();        
 
