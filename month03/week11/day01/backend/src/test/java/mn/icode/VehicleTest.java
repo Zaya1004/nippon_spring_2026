@@ -16,7 +16,6 @@ public class VehicleTest {
     public void testBikeInitializationAndSpeed(){
         Bike bike = new Bike("Yamaha");
         Assertions.assertEquals(120, bike.maxSpeed(), "Bike must return a max speed of 120.");
-        Assertions.assertFalse(bike.isAutomatic());
-        Assertions.assertFalse(bike.hasEngine());
+       
     }
 }

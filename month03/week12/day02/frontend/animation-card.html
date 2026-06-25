@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .grid {
+            display: grid;
+            gap: 24px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+            transition: all 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);
+            background: rgb(201, 156, 195);
+        }
+
+        .card-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            height: 100px;
+        }
+
+        .card p {
+            font-size: 15px; 
+            color: white; 
+            margin-bottom: 30px;
+        }
+
+        .card a{
+            font-size: 20px;
+            font-weight: 700;
+            color: #bfb3d8;
+            text-decoration: none;
+            transition: color 0.25s ease;
+        }
+        .card:hover .card-link { 
+            color: #3498db; 
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="card">
+            <div class="card-img">📋</div>
+            <div class="card-body">
+                <h3>ArrayList</h3>
+                <p>java.util-ийн динамик массив — зүйл нэмэхэд автоматаар томордог.</p>
+                <a href="#" class="card-link">Дэлгэрэнгүй →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">🗂️</div>
+            <div class="card-body">
+                <h3>HashMap</h3>
+                <p>Түлхүүр-утга хадгалах, hash функц ашиглан дунджаар O(1) хандалттай.</p>
+                <a href="#" class="card-link">Дэлгэрэнгүй →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">🔗</div>
+            <div class="card-body">
+                <h3>Linked List</h3>
+                <p>Динамик зангилааны гинж — толгойд O(1) оруулах, Stack болон Queue-ийн суурь.</p>
+                <a href="#" class="card-link">Дэлгэрэнгүй →</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

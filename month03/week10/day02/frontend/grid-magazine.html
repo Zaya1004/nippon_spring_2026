@@ -1,0 +1,120 @@
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: sans-serif;
+        padding: 30px;
+        background: #fafafa;
+    }
+
+    .magazine {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .featured {
+        grid-column: span 2;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(135deg, #1976d2, #42a5f5);
+    }
+
+    .featured .card-img {
+        height: 280px;
+    }
+
+    .card-img.purple {
+        background: linear-gradient(135deg, #7b1fa2, #ce93d8);
+    }
+
+    .card-img.green {
+        background: linear-gradient(135deg, #388e3c, #81c784);
+    }
+
+    .card-img.orange {
+        background: linear-gradient(135deg, #e65100, #ffb74d);
+    }
+
+    .card-body {
+        padding: 16px;
+    }
+
+    .tag {
+        font-size: 11px;
+        color: #1976d2;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+
+    .card-body h2 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .card-body h3 {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .card-body p {
+        color: #666;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+</style>
+</head>
+
+<body>
+    <div class="magazine">
+        <div class="card featured">
+            <div class="card-img"></div>
+            <div class="card-body">
+                <div class="tag">FEATURED</div>
+                <h2>Abstract Classes in Java: A Complete Guide</h2>
+                <p>Learn how abstract classes enforce contracts while sharing common behavior across your class
+                    hierarchy.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img purple"></div>
+            <div class="card-body">
+                <div class="tag">CSS</div>
+                <h3>CSS Grid vs Flexbox</h3>
+                <p>When to use each layout system.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img green"></div>
+            <div class="card-body">
+                <div class="tag">ITPEC</div>
+                <h3>Hash Tables Explained</h3>
+                <p>O(1) lookups and collision handling.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img orange"></div>
+            <div class="card-body">
+                <div class="tag">JAVA</div>
+                <h3>JUnit 5 Basics</h3>
+                <p>Write your first unit tests.</p>
+            </div>
+        </div>
+    </div>
