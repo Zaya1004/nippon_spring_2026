@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "nippon-spring-2026-zaya-795e9",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

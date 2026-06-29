@@ -4,16 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/flex-nav.css">
+   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #1a1a2e;
+      color: white;
+      padding: 0 40px;
+      height: 64px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #e94560;
+    }
+
+    nav {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 8px 4px;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    nav a:hover {
+      color: white;
+      border-bottom-color: #e94560;
+    }
+
+    .hero {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: white;
+      font-size: 32px;
+    }</style>
 </head>
 <body>
-    <header>
-       <nav>ICODE</nav>
-       <a href="" class="btn">Home</a>
-       <a href="" class="btn">About</a>
-       <a href="" class="btn">Services</a>
-       <a href="" class="btn">Blog</a>
-       <a href="" class="btn">Contact</a>
-    </header>
+   <header>
+    <div class="logo">iCode</div>
+    <nav>
+      <a href="#">Нүүр</a>
+      <a href="#">Тухай</a>
+      <a href="#">Үйлчилгээ</a>
+      <a href="#">Блог</a>
+      <a href="#">Холбоо</a>
+    </nav>
+  </header>
+  <div class="hero">Тавтай морилно уу!</div>
 </body>
 </html>

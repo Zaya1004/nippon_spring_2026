@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    width: 1400px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 100%;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+a:hover {
+    border-bottom-color: #e94560;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}

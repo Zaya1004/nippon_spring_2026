@@ -66,3 +66,6 @@ for (const score of student.scores){
 	sums += score;
 }
 const average = sum / student.scores.length;
+console.log(`Дундаж: ${average}`);
+
+student.email = "bat@example.com";
