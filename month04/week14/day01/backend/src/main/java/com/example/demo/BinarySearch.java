@@ -1,9 +1,5 @@
 package com.example.demo;
 
-import java.lang.foreign.ValueLayout.OfBoolean;
-
-import tools.jackson.databind.ser.jdk.NumberSerializer;
-
 public class BinarySearch {
     private int[] numbers;
     

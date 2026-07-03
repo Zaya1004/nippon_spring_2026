@@ -87,13 +87,14 @@ console.log(getNames(students));
 
 // Ex02
 function getPassingStudents(){
-	 return students.filter(score => score >= 60);
+	 return students.filter(student => student.score >= 60);
 }
 console.log(getPassingStudents().length);
 
 // Ex03 
 function averageScore(){
-	return 
+	return  students.reduce((sum, student) => sum + student.score, 0) / students.length;
 }
+console.log(averageScore());
 
 

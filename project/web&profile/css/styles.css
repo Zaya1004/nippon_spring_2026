@@ -34,6 +34,24 @@ a:hover {
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+}
+
+
+.hero {
+    width: 506px;
+    height: 105px;
+    top: 228px;
+    left: 148px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+img {
+    width: 243px;
+    height: 243px;
+    
 }
