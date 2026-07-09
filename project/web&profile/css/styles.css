@@ -35,8 +35,10 @@ a:hover {
 
 .about {
     display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
+    justify-content: center;
+    align-content: center ;
+    grid-template-rows: 60px 1fr 50px;
+    gap: 16px;
 }
 
 
@@ -53,5 +55,5 @@ a:hover {
 img {
     width: 243px;
     height: 243px;
-    
+
 }

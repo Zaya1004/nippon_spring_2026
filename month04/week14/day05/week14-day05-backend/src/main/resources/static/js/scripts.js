@@ -51,6 +51,3 @@ function countByProgram() {
 }
 console.log(countByProgram());
 
-function studentById() {
-    return students.filter(student => student.)
-}
