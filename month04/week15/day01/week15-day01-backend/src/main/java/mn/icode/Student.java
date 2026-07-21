@@ -1,5 +1,7 @@
 package mn.icode;
 
+import java.util.ArrayList;
+
 public class Student {
 	String name;
 	int age; 
@@ -32,5 +34,9 @@ public class Student {
 	    
 	    s1.isPassing();
 	    s2.isPassing();
+	    
+	    
     }
+    
+    
 }
